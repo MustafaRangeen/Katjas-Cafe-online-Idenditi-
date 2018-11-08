@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- Navigations menu for mobilen -->
+  <nav class="navbar navbar-default navbar-mobile navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar top-bar"></span>
+               <span class="icon-bar middle-bar"></span>
+               <span class="icon-bar bottom-bar"></span>
+             </button>
+             <!-- Logo -->
+             <a href="index.html" title="Katjas Sandwich & Salatbar"><img src="images/logo-mobile.svg" class="logo" alt="Katjas logo" /></a>
+        <div id="open-close-box"></div>
+        <!-- Slut åben og lukket i dag boks -->
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html" title="Forside">Forside</a></li>
+          <li><a href="menu.html" title="Menu side">Menu</a></li>
+          <li><a href="om-os.html" title="Om caféen">Om caféen</a></li>
+          <li><a href="kontakt.html" title="Kontakt os">Kontakt os</a></li>
+          <li><a href="bestilling.html" title="Bestilling"><img src="images/kurv.svg" alt="Kurv til bestilling" class="cart-icon"/></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Slut navigations menu for mobilen -->
+
+  <!-- Navigations menu for desktop -->
+  <nav class="navbar-desktop">
+    <!-- Logo -->
+    <a href="index.html"><img class="logo_desk" src="images/logo.svg" alt="Katjas Logo"></a>
+    <ul>
+      <li><a href="index.html">Forside</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="om-os.html">Om caféen</a></li>
+      <li><a href="services.html">Vi tilbyder</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li>
+        <a href="bestilling.html"><img class="shop" src="images/kurv.svg" alt="Kurv til bestilling"></a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Navigations menu for desktop -->
+
+  <main>
+    <section class="section-menu-mobile">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 heading-area">
+            <h2 class="heading-heliosSemibold fcolor-brown">Vi sætter høj pris på kvalitet og friskhed og sørger for af den grund for kun at smørre en sandwich eller anrette et af vores tyrkiske delikatesser på bestilling.</h2>
+          </div>
+        </div>
+        <div class="height"></div>
+        <!-- Menu title -->
+        <div class="row">
+          <div class="col-sm-12">
+            <h3 class="heading-penny fcolor-brown fsize-lg">Husets speciale</h3>
+          </div>
+        </div>
+        <!-- Menu indhold -->
+        <div class="row">
+          <div class="col-sm-6">
+            <figure class="menu_item">
+              <img src="images/test.jpg" class="img-circle menu_img" />
+              <h4 class="menu_title">Katjas cafeburger</h4>
+              <p>Kylling, brød, ost, chilli & chilli </p>
+              <h5 class="menu_price">65,-</h5>
+              <button type="button" class="btn btn-green" data-toggle="modal" data-target="#myModal">Tilføj til kurv</button>
+            </figure>
+          </div>
+          <div class="col-sm-6">
+            <figure class="menu_item">
+              <img src="images/test.jpg" class="img-circle menu_img" />
+              <h4 class="menu_title">Katjas cafeburger</h4>
+              <p>Kylling, brød, ost, chilli & chilli </p>
+              <h5 class="menu_price">65,-</h5>
+              <button type="button" class="btn btn-green" data-toggle="modal" data-target="#myModal">Tilføj til kurv</button>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Pop up vindue for det specifikke madvalg  -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!-- Mad indhold-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><img src="images/close.svg" alt="Close button" /></button>
+            <h4 class="modal-title">Katjas Cafeburger</h4>
+            <P>Kylling, brød, ost, chilli & chilli</P>
+            <h5 class="modal-price">65,-</h5>
+          </div>
+          <div class="modal-body text-center">
+            <img src="images/test.jpg" class="img-circle menu_img" />
+            <h5>Hvor mange antal?</h5>
+            <input type="text" class="form-control">
+          </div>
+          <div class="modal-footer">
+            <!-- CTA knapper - enten gå til bestilling eller fortsætte indkøb -->
+            <a href="bestilling.html" class="btn btn-green" title="Gå til bestiling">Gå til bestilling</a>
+            <button type="button" class="btn btn-brown" data-dismiss="modal">Fortsæt indkøb</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- Footer sektion for kontakt informationer -->
+          <div class="col-sm-12 col-md-3">
+            <h3 class="footer_title">Kontakt oplysninger</h3>
+            <p class="footer_info">
+              Katjas Sandwich & Salatbar
+              <br /> Holsteinsgade 15
+              <br /> 8300 Odder
+              <br /> Telefonnummer: +45 86 54 54 64
+              <br /> Email: info@katjascafe.dk
+              <br />
+              <br /> CVR-nr.: 38719270
+            </p>
+          </div>
+          <!-- Footer sektion for åbningstider -->
+          <div class="col-sm-12 col-md-3">
+            <h3 class="footer_title">Åbningstider</h3>
+            <p class="footer_hours">
+              Åben 7 dage om ugen
+              <br /> <br />Mandag til fredag 10-20
+              <br /> Lørdag til søndag 11-20
+            </p>
+          </div>
+          <!-- Footer sektion for sociale medier -->
+          <div class="col-sm-12 col-md-3">
+            <h3 class="footer_title">Like og følg os på</h3>
+            <ul class="soc">
+              <li><a class="soc-facebook" href="#" title="Twitter"></a></li>
+              <li><a class="soc-instagram soc-icon-last" href="#" title="Instagram"></a></li>
+            </ul>
+          </div>
+          <!-- Footer sektion for kontrolrapport -->
+          <div class="col-sm-12 col-md-3">
+            <h3 class="footer_title">Se vores kontrolrapport</h3>
+            <a href="http://www.findsmiley.dk/712436" title="kontrolrapport"><img src="images/rapport.jpg" class="footer__rapport" alt="kontrolrapport" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- slut footer  -->
+
+  </main>
+
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/hours.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- Navigations menu for mobilen -->
+  <nav class="navbar navbar-default navbar-mobile navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar top-bar"></span>
+               <span class="icon-bar middle-bar"></span>
+               <span class="icon-bar bottom-bar"></span>
+             </button>
+        <!-- Logo -->
+        <a href="index.html" title="Katjas Sandwich & Salatbar"><img src="images/logo-mobile.svg" class="logo" alt="Katjas logo" /></a>
+        <!-- Åben og lukket i dag boks -->
+        <div id="open-close-box"></div>
+        <!-- Slut åben og lukket i dag boks -->
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html" title="Forside">Forside</a></li>
+          <li><a href="menu.html" title="Menu side">Menu</a></li>
+          <li><a href="om-os.html" title="Om caféen">Om caféen</a></li>
+          <li><a href="kontakt.html" title="Kontakt os">Kontakt os</a></li>
+          <li><a href="bestilling.html" title="Bestilling"><img src="images/kurv.svg" alt="Kurv til bestilling" class="cart-icon"/></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Slut navigations menu for mobilen -->
+
+  <!-- Navigations menu for desktop -->
+  <nav class="navbar-desktop">
+    <!-- Logo -->
+    <a href="index.html"><img class="logo_desk" src="images/logo.svg" alt="Katjas Logo"></a>
+    <ul>
+      <li><a href="index.html">Forside</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="om-os.html">Om caféen</a></li>
+      <li><a href="services.html">Vi tilbyder</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+      <li>
+        <a href="bestilling.html"><img class="shop" src="images/kurv.svg" alt="Kurv til bestilling"></a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Navigations menu for desktop -->
+
+  <main>
+    <!-- Første sektion på forside "velkommen" -->
+    <section class="section-welcome">
+      <div class="black-overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 heading-area">
+            <div class="desk-welcome">
+              <h3 class="heading-penny fcolor-white fsize-xxl">Velkommen til !</h3>
+              <p class="fcolor-white fsize-md">Åben i dag 10 - 20</p>
+            </div>
+            <h1 class="heading-heliosBold fsize-lg fcolor-orange">Frisklavede sandwiches & tyrkiske delikateser</h1>
+            <h2 class="heading-heliosBold fsize-lg fcolor-orange">Med et drys af kærlighed fra det tyrkiske og danske køkken</h2>
+            <br />
+            <div class="button-container">
+              <a href="kontakt.html" class="btn btn-green one">Firma bestilling</a>
+              <a href="menu.html" class="btn btn-green">Bestil nu</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slut første sektion på forside "velkommen" -->
+
+    <!-- Slut sektion om os desktop -->
+    <section class="section-desk-about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <!-- Overskrift -->
+            <h2 class="heading-penny fsize-xxl fcolor-brown">Om os</h2>
+            <!-- Brødtekst -->
+            <p>
+              Vi er en familieejet café, som har eksisteret siden 2010 år i hjertet af Odder. Vi giver vores kunder frisklavede madretter og en velsmagende madoplevelse med vores tyrkiske delikatesser. Vi ligger hjerte både i vores madlavning og service i en rummelig og hyggelig atmosfære, hvor vi vil tage imod dig og din bestilling med åbne arme og et smil på læben.
+            </p>
+            <br />
+            <!-- CTA knap -->
+            <a href="om-os.html" class="btn btn-brown">Læs mere om os</a>
+          </div>
+          <div class="col-lg-5">
+            <img src="images/test.jpg" alt="Test" />
+            <img src="images/test.jpg" alt="Test" />
+            <img src="images/test.jpg" alt="Test" />
+            <img src="images/test.jpg" alt="Test" />
+            <img src="images/test.jpg" alt="Test" />
+            <img src="images/test.jpg" alt="Test" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slut sektion om os desktop -->
+
+    <!-- Sektion for menu -->
+    <section class="section-homepage-menu">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-12">
+            <h2 class="heading-penny fcolor-white">Vores hjemmelavede menu</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class='col-md-offset-2 col-md-8'>
+            <div class="carousel slide" id="menu-carousel">
+              <!-- Carousel Slider -->
+              <div class="carousel-inner">
+                <!-- Mad 1 -->
+                <div class="item active">
+                  <blockquote>
+                    <div class="row text-center">
+                      <div class="col-sm-12 text-center">
+                        <img class="img-circle" src="images/test.jpg">
+                      </div>
+                      <div class="col-sm-12">
+                        <h3>Katjas Cafeburger</h3>
+                        <P>Kylling, brød, ost, chilli & chilli</P>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+                <!-- Mad 2 -->
+                <div class="item">
+                  <blockquote>
+                    <div class="row text-center">
+                      <div class="col-sm-12 text-center">
+                        <img class="img-circle" src="images/test.jpg">
+                      </div>
+                      <div class="col-sm-12">
+                        <h3>Katjas Cafeburger</h3>
+                        <P>Kylling, brød, ost, chilli & chilli</P>
+                      </div>
+                    </div>
+                  </blockquote>
+                </div>
+              </div>
+              <!-- Carousel Knapper Næste/Forrige -->
+              <a data-slide="prev" href="#menu-carousel" class="left carousel-control"><img src="images/arrow-left.svg" class="menu-arrows" alt="Arrow pointing left" /></a>
+              <a data-slide="next" href="#menu-carousel" class="right carousel-control"><img src="images/arrow-right.svg" class="menu-arrows" alt="Arrow pointing right" /></a>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <button type="button" class="btn btn-green" data-toggle="modal" data-target="#myModal">Tilføj til kurv</button>
+          <a href="menu.html" class="btn btn-brown-rev">Se menu kort</a>
+        </div>
+      </div>
+    </section>
+    <!-- Slut ektion for menu -->
+
+    <!-- Pop up vindue for det specifikke madvalg  -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!-- Mad indhold-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><img src="images/close.svg" alt="Close button" /></button>
+            <h4 class="modal-title">Katjas Cafeburger</h4>
+            <P>Kylling, brød, ost, chilli & chilli</P>
+            <h5 class="modal-price">65,-</h5>
+          </div>
+          <div class="modal-body text-center">
+            <img src="images/test.jpg" class="img-circle menu_img" />
+            <h5>Hvor mange antal?</h5>
+            <input type="text" class="form-control">
+          </div>
+          <div class="modal-footer">
+            <!-- CTA knapper - enten gå til bestilling eller fortsætte indkøb -->
+            <a href="bestilling.html" class="btn btn-green" title="Gå til bestiling">Gå til bestilling</a>
+            <button type="button" class="btn btn-brown" data-dismiss="modal">Fortsæt indkøb</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Sektion for vi tilbyder desk -->
+    <section class="section-offer-desk">
+      <div class="container">
+        <div class="row text-center">
+          <!-- B2B -->
+          <div class="col-lg-4 heading-area">
+            <img src="images/firma.jpg" class="img-circle" alt="Bestilling for firmaer" />
+            <h3>Firmaordning</h3>
+            <p>
+              Vi tilbyder firmaer et sundt og nærende udvalg af vores mad. Alle har behov for en god frokostordning, som kan nydes på arbejdet.
+            </p>
+            <br />
+            <a href="#" class="btn btn-brown">Læs mere</a>
+          </div>
+          <!-- Jul & nytår -->
+          <div class="col-lg-4 heading-area">
+            <img src="images/skole.jpg" class="img-circle" alt="Bestilling for skolebørn" />
+            <h3>Madordning for skoler</h3>
+            <p>
+              Vi giver dit barn muligheden for frisklavede mad, inden skolen starter eller til udbringning på skolen takket været samarbejdet med Skolenmad.nu.
+            </p>
+            <br />
+            <a href="#" class="btn btn-brown">Læs mere</a>
+          </div>
+          <!-- Spis sundt -->
+          <div class="col-lg-4 heading-area">
+            <img src="images/julnytaar.jpg" class="img-circle" alt="Jul & nytår buffet" />
+            <h3>Jul & nytår buffet</h3>
+            <p>
+              Vores kunder betyder meget for os, derfor har vi sammensat 4 menuer til Jul og nytår, hvor familier og venner kan nyde hinandens selskab med god mad.
+            </p>
+            <br />
+            <a href="#" class="btn btn-brown">Læs mere</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slut sektion for vi tilbyder desk -->
+
+    <!-- Sektion for om os mobile -->
+    <section class="section-mobile-about">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-12 heading-area">
+            <h2 class="text-uppercase heading-heliosBold fsize-lg">Siden 2010</h2>
+            <br />
+            <h3 class="text-uppercase heading-heliosSemibold">Har vi været odders favorit madsted <br />for mange familer</h3>
+            <br />
+            <a href="om-os.html" class="btn btn-brown ">Læs mere om os</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slut sektion for om os mobile -->
+
+
+    <!-- Sektion for åbningstider -->
+    <section class="section-openinghours">
+      <div class="black-overlay"></div>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-12 heading-area">
+            <h2 class="heading-penny fsize-xl">Åbningstider</h2>
+            <p>
+              Mandag til fredag 10-20
+              <br /> Lørdag til søndag 11-20
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slut sektion for åbningstider -->
+
+    <!-- Sektion for sociale medier -->
+    <section class="section-mobile-social">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-sm-12 heading-area">
+            <h2 class="fsize-xl fcolor-brown heading-penny">Find os på</h2>
+            <br />
+            <ul class="soc">
+              <li><a class="soc-facebook" href="#" title="Facebook"></a></li>
+              <li><a class="soc-instagram soc-icon-last" href="#" title="Instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slut sektion for sociale medier -->
+
+    <!-- Ses på gensyn sektion -->
+    <section class="section-bye">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h2 class="fsize-xxl heading-penny">Tak for denne gang<br /> På gensyn !</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Slut ses på gensyn sektion -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <!-- Footer sektion for kontakt informationer -->
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <h3 class="footer_title">Kontakt oplysninger</h3>
+            <p class="footer_info">
+              Katjas Sandwich & Salatbar
+              <br /> Holsteinsgade 15
+              <br /> 8300 Odder
+              <br /> Telefonnummer: +45 86 54 54 64
+              <br /> Email: info@katjascafe.dk
+              <br />
+              <br /> CVR-nr.: 38719270
+            </p>
+          </div>
+          <!-- Footer sektion for åbningstider -->
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <h3 class="footer_title">Åbningstider</h3>
+            <p class="footer_hours">
+              Åben 7 dage om ugen
+              <br /> <br />Mandag til fredag 10-20
+              <br /> Lørdag til søndag 11-20
+            </p>
+          </div>
+          <!-- Footer sektion for sociale medier -->
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <h3 class="footer_title">Like og følg os på</h3>
+            <ul class="soc">
+              <li><a class="soc-facebook" href="#" title="Facebook"></a></li>
+              <li><a class="soc-instagram soc-icon-last" href="#" title="Instagram"></a></li>
+            </ul>
+          </div>
+          <!-- Footer sektion for kontrolrapport -->
+          <div class="col-sm-12 col-md-4 col-lg-3">
+            <h3 class="footer_title">Se vores kontrolrapport</h3>
+            <a href="http://www.findsmiley.dk/712436" title="kontrolrapport"><img src="images/rapport.jpg" class="footer__rapport" alt="kontrolrapport" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- slut footer  -->
+
+  </main>
+
+  <!-- JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/hours.js"></script>
+</body>
+
+</html>
